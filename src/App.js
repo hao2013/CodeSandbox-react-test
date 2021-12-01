@@ -1,9 +1,14 @@
+import { useState } from "react";
 import "./styles.css";
 
 export default function App() {
+  const [count, setCount] = useState(10000);
+
   return (
     <div className="App">
-      <p>test</p>
+      <h2>hello!!</h2>
+      <h2>hello!!</h2>
+      <p>{count}</p>
     </div>
   );
 }
